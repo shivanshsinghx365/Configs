@@ -201,7 +201,7 @@ alias wget='wget -c '
 alias sha='shasum -a 256 '
 
 #ping
-alias ping='ping -c 15'
+alias ping='ping -c 7'
 alias pg="ping google.com -c 7"
 
 #external ip
