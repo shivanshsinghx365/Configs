@@ -374,3 +374,7 @@ alias upbash='source ~/.bashrc'
 
 #clear bash history
 alias chis='history -c'
+
+#file analyze
+alias fla='sudo baobab'
+alias faa='sudo nautilus'
