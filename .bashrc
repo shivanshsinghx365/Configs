@@ -368,3 +368,9 @@ fi
 
 #BPYTOP
 alias pt='bpytop'
+
+#update bashrc
+alias upbash='source ~/.bashrc'
+
+#clear bash history
+alias chis='history -c'
