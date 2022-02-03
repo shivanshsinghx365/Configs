@@ -214,14 +214,15 @@ alias ipi='ipconfig getifaddr en0'
 alias cl='clear'
 
 #exit
-alias ex='exit'
-alias :q="exit"
-alias ext="exit"
-alias xt="exit"
-alias by="exit"
-alias bye="exit"
-alias die="exit"
-alias quit="exit"
+
+#alias ex='exit'
+#alias :q="exit"
+#alias ext="exit"
+#alias xt="exit"
+#alias by="exit"
+#alias bye="exit"
+#alias die="exit"
+#alias quit="exit"
 
 #now
 alias path='echo -e ${PATH//:/\\n}'
@@ -367,7 +368,7 @@ if [ -d "$HOME/Applications" ] ;
 fi
 
 #BPYTOP
-alias pt='bpytop'
+alias bp='bpytop'
 
 #update bashrc
 alias upbash='source ~/.bashrc'
@@ -378,3 +379,7 @@ alias chis='history -c'
 #file analyze
 alias fla='sudo baobab'
 alias faa='sudo nautilus'
+
+#snap
+alias snd='snap disable snapd && snap diable snap-store'
+alias sne='snap enable snapd && snap enable snap-store'
