@@ -383,3 +383,6 @@ alias faa='sudo nautilus'
 #snap
 alias snd='snap disable snapd && snap diable snap-store'
 alias sne='snap enable snapd && snap enable snap-store'
+
+#jupyter
+alias jn='jupyter notebook --allow-root'
