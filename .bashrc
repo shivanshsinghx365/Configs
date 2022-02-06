@@ -273,6 +273,10 @@ alias shutdown="sudo /sbin/shutdown"
 alias flighton='sudo rfkill block all'
 alias flightoff='sudo rfkill unblock all'
 alias snr='sudo service network-manager restart'
+alias godmode="sudo -s"
+alias powerof="sudo shutdown -h now"
+alias restart="sudo reboot"
+alias cleardown="cd ~/Downloads && rm -r *"
 
 # Get top process eating memory
 alias psmem="ps auxf | sort -nr -k 4"
