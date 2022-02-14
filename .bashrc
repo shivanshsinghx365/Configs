@@ -390,3 +390,8 @@ alias sne='snap enable snapd && snap enable snap-store'
 
 #jupyter
 alias jn='jupyter notebook --allow-root'
+
+#Swap on off
+alias free='free -h'
+alias spof='sudo swapoff -a'
+alias spon='sudo swapon -a'
