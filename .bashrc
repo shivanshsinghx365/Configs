@@ -395,3 +395,6 @@ alias jn='jupyter notebook --allow-root'
 alias free='free -h'
 alias spof='sudo swapoff -a'
 alias spon='sudo swapon -a'
+
+#ssd
+alias ssd='sh ssd.sh'
