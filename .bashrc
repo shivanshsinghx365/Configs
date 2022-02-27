@@ -296,7 +296,7 @@ alias gpumeminfo="grep -i --color memory /var/log/Xorg.0.log"
 alias totalusage='df -hl --total | grep total'
 
 #full-check
-alias sys='sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt autoclean && sudo snap refresh && sudo flatpak update && sudo fstrim -v /'
+alias sy='sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt autoclean && sudo snap refresh && sudo flatpak update && sudo fstrim -v /'
 
 #count files
 alias count='find . -type f | wc -l'
@@ -397,4 +397,7 @@ alias spof='sudo swapoff -a'
 alias spon='sudo swapon -a'
 
 #ssd
-alias ssd='sh ssd.sh'
+alias ssd='sh .ssd.sh'
+
+#full sys
+alias sys='sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt autoclean && sudo snap refresh && sudo flatpak update && sudo fstrim -v / && sh .ssd.sh'
