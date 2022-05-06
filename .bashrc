@@ -157,7 +157,7 @@ alias gcot="git checkout"
 alias gchekout="git checkout"
 alias gchckout="git checkout"
 alias gckout="git checkout"
-alias go="git push -u origin"
+alias gop="git push -u origin"
 alias gsh='git stash'
 alias gw='git whatchanged'
 alias gitlg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
@@ -397,7 +397,13 @@ alias spof='sudo swapoff -a'
 alias spon='sudo swapon -a'
 
 #ssd
-alias ssd='sh .ssd.sh'
+alias ssd='sudo fstrim -v / && sh .ssd.sh'
 
 #full sys
 alias sys='sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt autoclean && sudo snap refresh && sudo flatpak update && sudo fstrim -v / && sh .ssd.sh'
+
+#powertop
+alias power='sudo powertop'
+
+#sleep
+alias slp='systemctl suspend -i'
