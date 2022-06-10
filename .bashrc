@@ -400,7 +400,7 @@ alias spon='sudo swapon -a'
 alias ssd='sudo fstrim -v / && sh .ssd.sh'
 
 #full sys
-alias sys='sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt autoclean && sudo snap refresh && sudo flatpak update && sudo fstrim -v / && sh .ssd.sh'
+alias sys='sudo apt update && sudo apt upgrade && sudo deb-get update && sudo deb-get upgrade && sudo apt autoremove && sudo apt autoclean && sudo snap refresh && sudo flatpak update && sudo fstrim -v / && sh .ssd.sh'
 
 #powertop
 alias power='sudo powertop'
